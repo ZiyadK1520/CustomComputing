@@ -1,0 +1,15 @@
+{
+  "name": "node_project",
+  "version": "1.0.0",
+  "description": "this is first node program for testing purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ziyad Khan",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "express": "^4.21.1"
+  }
+}
