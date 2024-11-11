@@ -8,6 +8,14 @@
     justify-content:center;
 }
 
+.container{
+    border:2px solid blue;
+    height: 100vh;
+    display: block;
+    align-items: center;
+    justify-content:space-around;
+}
+
 .hero-text{
     width: 40%;
     height:30%;
@@ -35,4 +43,27 @@
 .hero-img{
     height: 100px;
     width: 100px;
+}
+
+.top-banner{
+    border: 2px solid red;
+    width:100%;
+    height:auto;
+    text-align: center;
+}
+
+.card-row{
+    margin-top: 5%;
+    justify-content: space-around;
+    display: flex;
+    border:2px solid cyan;
+    height: 20%;
+    width: 100%;
+    
+    
+}
+.product-card{
+    border: 2px solid green;
+    border-radius: 20%;
+    
 }
