@@ -2,22 +2,29 @@
 .hero-container{
     border:2px solid blue;
     padding: 2px;
-    height: 700px;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content:center;
 }
 
 .hero-text{
+    width: 40%;
+    height:30%;
     border: 2px solid red;
-    padding: 2px;
     text-align: center;
     margin-right: 20%;
 }
 
 .title-text{
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-size: 260%;
+    text-align: left;
+    height: 60%;
+    width: 100%;
     border: 2px dotted green;
-    padding: 2px;
+    padding: 0%;
 }
 
 .slogan-text{
