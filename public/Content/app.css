@@ -1,0 +1,31 @@
+/* custom css goes here */
+.hero-container{
+    border:2px solid blue;
+    padding: 2px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.hero-text{
+    border: 2px solid red;
+    padding: 2px;
+    text-align: center;
+    margin-right: 20%;
+}
+
+.title-text{
+    border: 2px dotted green;
+    padding: 2px;
+}
+
+.slogan-text{
+    border: 2px dotted lightgreen;
+    padding: 2px;
+}
+
+.hero-img{
+    height: 100px;
+    width: 100px;
+}
