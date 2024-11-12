@@ -1,14 +1,15 @@
 /* custom css goes here */
 .hero-container{
     border:2px solid blue;
-    padding: 2px;
+    /*padding: 2px;*/
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content:space-around;
 }
 
 .container{
+    text-align: center;
     border:2px solid blue;
     height: 100vh;
     width:100%;
@@ -22,14 +23,14 @@
     height:30%;
     border: 2px solid red;
     text-align: center;
-    margin-right: 20%;
+    /*margin-right: 20%;*/
 }
 
 .title-text{
     font-family: "Anton SC", sans-serif;
     font-weight: 400;
     font-size: 260%;
-    text-align: left;
+    text-align: center;
     height: 60%;
     width: 100%;
     border: 2px dotted green;
@@ -42,8 +43,9 @@
 }
 
 .hero-img{
-    height: 100px;
-    width: 100px;
+    border:2px solid orangered;
+    height: 50%;
+    width: 50%;
 }
 
 .top-banner{
@@ -58,19 +60,76 @@
     justify-content: space-around;
     display: flex;
     border:2px solid cyan;
-    height: 20%;
+    height: 40%;
     width: 100%;
     
     
 }
 .product-card{
+    text-align: center;
     border: 2px solid green;
-    width: 30%;
+    border-radius: 10%;
+    box-shadow: 5px 2px black;
+    width: 25%;
+    overflow: hidden;
+    background-color: grey;
+    color: aliceblue;
     
 }
 
 .product-img{
     border:2px solid orangered;
-    height:50%;
+    height:50%;;
     width:100%;
+    object-fit: cover;
+}
+
+.shop-btn{
+    text-decoration: none;
+}
+
+
+/*CSS for contact page*/
+.hero-section {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 60px 20px;
+}
+
+.team-section, .values-section, .contact-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.team-grid, .values-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.team-member, .value-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 250px;
+    text-align: center;
+}
+
+.contact-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.contact-btn:hover {
+    background-color: #0056b3;
+}
+
+.input{
+    border-radius: 25px;
 }

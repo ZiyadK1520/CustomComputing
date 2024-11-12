@@ -1,29 +1,59 @@
 <%- include partials/header.ejs %>
 <%- include partials/main_nav.ejs %>
-<body>
 
-        
-    <h1 class="pagename">Contact Me</h1>
-    <div class="form">
-    <form action="mailto:ziyad.khan@ontariotechu.net" ?subject="Signup" Form method="post" enctype="text/plain" name="Form">
-    <p>
-        
-        <input class="text-prompt"type="text"name="name" placeholder="Name" size="32" required>
-    </p>
-    <p>
-        
-        <input class="text-prompt" type="email"name="email" placeholder="Email" size="40" required>
-    </p>
-    <p>
-        
-        <input class="text-prompt" type="tel"name="phone" placeholder="Cell Phone number" size="32" required>
-    </p>
-    <p><input type="submit" value="click here to submit form"/></p>
-</form>
-</div>
-<div class="button-holder">
-<a class="link-btn"target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">LINKEDIN</a>
-<a class="link-btn"target="_blank" rel="noopener noreferrer" href="https://github.com/ZiyadK1520">GITHUB</a>
-</div>
-<%- include partials/bottom_nav.ejs %>
-<%- include partials/footer.ejs %>
+    <!-- Main Content -->
+    <main>
+        <section class="hero-section">
+            <div class="contacthero-container">
+                <h1>About Custom Computing</h1>
+                <p class="hero-description">
+                    At Custom Computing, we believe in crafting tailored solutions that meet the unique needs of each client. From high-performance gaming rigs to optimized workstations, our team of skilled professionals combines passion and expertise to bring your computing vision to life.
+                </p>
+            </div>
+        </section>
+
+        <section class="team-section">
+            <h2>Meet Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="Assets/images/team1.jpg" alt="Team Member 1">
+                    <h3>Farhan Israk</h3>
+                </div>
+                <div class="team-member">
+                    <img src="Assets/images/team2.jpg" alt="Team Member 2">
+                    <h3>Humzah Imam</h3>
+                </div>
+                <div class="team-member">
+                    <img src="Assets/images/team3.jpg" alt="Team Member 3">
+                    <h3>Ziyad Khan</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="values-section">
+            <h2>Our Values</h2>
+            <div class="values-grid">
+                <div class="value-item">
+                    <h3>Quality Craftsmanship</h3>
+                    <p>Each build is meticulously crafted with the best components, ensuring both performance and durability.</p>
+                </div>
+                <div class="value-item">
+                    <h3>Customer-Centric Approach</h3>
+                    <p>We prioritize your vision and work closely with you to create a build that meets all of your requirements.</p>
+                </div>
+                <div class="value-item">
+                    <h3>Innovation & Expertise</h3>
+                    <p>Our team stays updated with the latest technologies, delivering cutting-edge solutions in every build.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <h2>Get in Touch</h2>
+            <p>Whether you're ready to start a project or just looking for advice, our team is here to help you make the best choices for your computing needs.</p>
+            <a class="contact-btn" href="/contact">Contact Us</a>
+        </section>
+    </main>
+
+    <!-- Include the Footer Partial -->
+</html>

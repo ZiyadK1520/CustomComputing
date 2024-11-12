@@ -26,9 +26,9 @@ router.get('/products', function(req, res, next) {
    });
 });
 
-router.get('/services', function(req, res, next) {
-  res.render('projects.ejs', { 
-    title: 'Projects',
+router.get('/custom', function(req, res, next) {
+  res.render('custom.ejs', { 
+    title: 'Custom',
    });
 });
 
